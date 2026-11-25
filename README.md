@@ -1,5 +1,7 @@
 # EnrichedNow MCP server
 
+[![EnrichedNow MCP connector](https://glama.ai/mcp/connectors/io.github.enrichednow/enrichednow/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.enrichednow/enrichednow)
+
 <img src="assets/logo.png" alt="EnrichedNow" width="96" align="right">
 
 A hosted MCP server that gives AI agents 450+ ready-made scrapers as tools: search a job board, a map, a shop or a
@@ -184,6 +186,7 @@ https://docs.enrichednow.com/mcp/.
 - MCP docs: https://docs.enrichednow.com/mcp/
 - API docs: https://docs.enrichednow.com
 - Console and sign-up: https://app.enrichednow.com/signup
+- Listings: [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.enrichednow/enrichednow) (`io.github.enrichednow/enrichednow`), [Glama](https://glama.ai/mcp/connectors/io.github.enrichednow/enrichednow)
 - SDKs: [Python](https://github.com/enrichednow/enrichednow-python), [JavaScript](https://github.com/enrichednow/enrichednow-js), [Go](https://github.com/enrichednow/enrichednow-go), [Java](https://github.com/enrichednow/enrichednow-java), [CLI](https://github.com/enrichednow/enrichednow-cli)
 - Contact: hello@enrichednow.com
 
