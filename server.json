@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.enrichednow/enrichednow",
+  "title": "EnrichedNow",
+  "description": "Hosted MCP server: 450+ ready-made scrapers as tools that return clean, structured records",
+  "version": "1.0.0",
+  "websiteUrl": "https://enrichednow.com",
+  "repository": {
+    "url": "https://github.com/enrichednow/enrichednow-mcp",
+    "source": "github",
+    "id": "1472381539"
+  },
+  "icons": [
+    {
+      "src": "https://enrichednow.com/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    },
+    {
+      "src": "https://enrichednow.com/apple-icon.png",
+      "mimeType": "image/png",
+      "sizes": ["180x180"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.enrichednow.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Bearer followed by an EnrichedNow API key from https://app.enrichednow.com. Leave it out to sign in with OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
